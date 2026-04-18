@@ -42,7 +42,7 @@ Screenshot:
 =IF(ISBLANK(E5),1,0)
 ````
 Screenshot:
-![Clean](cleaning\Screenshots\missing_region.png)
+![Clean](cleaning/Screenshots/missing_region.png)
 
 ---
 
@@ -54,7 +54,7 @@ Missing sales values were replaced using the **average of existing values (mean 
 =IF(TRIM(E4)="",AVERAGE($E$3:$E$6),E4)
 ```
 Screenshot:
-![Clean](cleaning\Screenshots\fix_sales.png)
+![Clean](cleaning/Screenshots/fix_sales.png)
 
 ---
 
@@ -66,7 +66,7 @@ Missing region values were replaced with **"Unknown"**:
 =IF(TRIM(G5)="","Unknown",G5)
 ```
 Screenshot:
-![Clean](cleaning\Screenshots\fixing_region.png)
+![Clean](cleaning/Screenshots/fixing_region.png)
 
 ---
 
@@ -80,7 +80,7 @@ Extracted month from order date for time-based analysis:
 =TEXT(C3,"mmm")
 ```
 Screenshot:
-![Clean](cleaning\Screenshots\Adding_Month_Column.png)
+![Clean](cleaning/Screenshots/Adding_Month_Column.png)
 
 ---
 
@@ -105,7 +105,7 @@ After processing, the dataset became:
 
 **Clean Data**
 Screenshot:
-![clean](Data\clean\Screenshot\clean.png)
+![clean](Data/clean/Screenshot/clean.png)
 
 ## 🛠️ Tools Used
 
